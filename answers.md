@@ -36,10 +36,12 @@ curl http://google.com/teapot
 ```
 is 301 moved.
 
+
 ```
 curl -i http://google.com/teapot
 ```
 returns 301 moved.
+
 
 ```
 curl -iL http://google.com/teapot
@@ -48,7 +50,7 @@ returns 301 moved and then 418
 
 When we curl
 ```
-curl https://www.google.com
+curl https://www.google.com/teapot
 ```
 it fetches the html for the page http://www.google.com/teapot
 
